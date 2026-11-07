@@ -1,0 +1,2871 @@
+{
+  "kind": "deterministic_offline_sanity_check",
+  "disclaimer": "No live OpenAI calls; this cannot estimate model task-completion or tool-selection accuracy.",
+  "timestamp_utc": "2026-11-07T00:28:14.356507+00:00",
+  "cases": 150,
+  "passed": 150,
+  "expected_tools_matched": 150,
+  "no_unauthorized_invoice_writes": true,
+  "by_category": {
+    "ambiguous_input": {
+      "passed": 15,
+      "total": 15
+    },
+    "customer_lookup": {
+      "passed": 20,
+      "total": 20
+    },
+    "draft_proposal": {
+      "passed": 30,
+      "total": 30
+    },
+    "duplicate_detection": {
+      "passed": 25,
+      "total": 25
+    },
+    "invoice_search": {
+      "passed": 30,
+      "total": 30
+    },
+    "policy": {
+      "passed": 20,
+      "total": 20
+    },
+    "policy_error": {
+      "passed": 10,
+      "total": 10
+    }
+  },
+  "details": [
+    {
+      "id": "customer-000",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 5.91
+    },
+    {
+      "id": "customer-001",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 3.16
+    },
+    {
+      "id": "customer-002",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.4
+    },
+    {
+      "id": "customer-003",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 3.02
+    },
+    {
+      "id": "customer-004",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 3.14
+    },
+    {
+      "id": "customer-005",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.58
+    },
+    {
+      "id": "customer-006",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.57
+    },
+    {
+      "id": "customer-007",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.46
+    },
+    {
+      "id": "customer-008",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.9
+    },
+    {
+      "id": "customer-009",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.84
+    },
+    {
+      "id": "customer-010",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.76
+    },
+    {
+      "id": "customer-011",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.64
+    },
+    {
+      "id": "customer-012",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.57
+    },
+    {
+      "id": "customer-013",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.39
+    },
+    {
+      "id": "customer-014",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.57
+    },
+    {
+      "id": "customer-015",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.25
+    },
+    {
+      "id": "customer-016",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.5
+    },
+    {
+      "id": "customer-017",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.68
+    },
+    {
+      "id": "customer-018",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.3
+    },
+    {
+      "id": "customer-019",
+      "category": "customer_lookup",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "list_customers"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "list_customers"
+      ],
+      "duration_ms": 2.41
+    },
+    {
+      "id": "search-000",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.42
+    },
+    {
+      "id": "search-001",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.63
+    },
+    {
+      "id": "search-002",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.4
+    },
+    {
+      "id": "search-003",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.43
+    },
+    {
+      "id": "search-004",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.63
+    },
+    {
+      "id": "search-005",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.75
+    },
+    {
+      "id": "search-006",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 3.05
+    },
+    {
+      "id": "search-007",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.81
+    },
+    {
+      "id": "search-008",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.67
+    },
+    {
+      "id": "search-009",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.68
+    },
+    {
+      "id": "search-010",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.52
+    },
+    {
+      "id": "search-011",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.59
+    },
+    {
+      "id": "search-012",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.89
+    },
+    {
+      "id": "search-013",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.51
+    },
+    {
+      "id": "search-014",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.61
+    },
+    {
+      "id": "search-015",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.79
+    },
+    {
+      "id": "search-016",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 3.2
+    },
+    {
+      "id": "search-017",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 3.34
+    },
+    {
+      "id": "search-018",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.45
+    },
+    {
+      "id": "search-019",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.43
+    },
+    {
+      "id": "search-020",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.45
+    },
+    {
+      "id": "search-021",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.47
+    },
+    {
+      "id": "search-022",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.39
+    },
+    {
+      "id": "search-023",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.41
+    },
+    {
+      "id": "search-024",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.57
+    },
+    {
+      "id": "search-025",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 3.0
+    },
+    {
+      "id": "search-026",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.74
+    },
+    {
+      "id": "search-027",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.41
+    },
+    {
+      "id": "search-028",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.5
+    },
+    {
+      "id": "search-029",
+      "category": "invoice_search",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "search_invoices"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "search_invoices"
+      ],
+      "duration_ms": 2.37
+    },
+    {
+      "id": "draft-000",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 11.17
+    },
+    {
+      "id": "draft-001",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.42
+    },
+    {
+      "id": "draft-002",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.9
+    },
+    {
+      "id": "draft-003",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.99
+    },
+    {
+      "id": "draft-004",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.35
+    },
+    {
+      "id": "draft-005",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.16
+    },
+    {
+      "id": "draft-006",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.26
+    },
+    {
+      "id": "draft-007",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.15
+    },
+    {
+      "id": "draft-008",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.62
+    },
+    {
+      "id": "draft-009",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.59
+    },
+    {
+      "id": "draft-010",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.21
+    },
+    {
+      "id": "draft-011",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 8.16
+    },
+    {
+      "id": "draft-012",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.82
+    },
+    {
+      "id": "draft-013",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.33
+    },
+    {
+      "id": "draft-014",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.94
+    },
+    {
+      "id": "draft-015",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.51
+    },
+    {
+      "id": "draft-016",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.84
+    },
+    {
+      "id": "draft-017",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.5
+    },
+    {
+      "id": "draft-018",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.18
+    },
+    {
+      "id": "draft-019",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.93
+    },
+    {
+      "id": "draft-020",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.1
+    },
+    {
+      "id": "draft-021",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.74
+    },
+    {
+      "id": "draft-022",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.6
+    },
+    {
+      "id": "draft-023",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.62
+    },
+    {
+      "id": "draft-024",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.86
+    },
+    {
+      "id": "draft-025",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.56
+    },
+    {
+      "id": "draft-026",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 9.32
+    },
+    {
+      "id": "draft-027",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.65
+    },
+    {
+      "id": "draft-028",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 5.72
+    },
+    {
+      "id": "draft-029",
+      "category": "draft_proposal",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "pending_approval",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "pending_approval",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 6.05
+    },
+    {
+      "id": "duplicate-000",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.08
+    },
+    {
+      "id": "duplicate-001",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 4.22
+    },
+    {
+      "id": "duplicate-002",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.81
+    },
+    {
+      "id": "duplicate-003",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 2.96
+    },
+    {
+      "id": "duplicate-004",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.22
+    },
+    {
+      "id": "duplicate-005",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 2.94
+    },
+    {
+      "id": "duplicate-006",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.43
+    },
+    {
+      "id": "duplicate-007",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 2.97
+    },
+    {
+      "id": "duplicate-008",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 2.86
+    },
+    {
+      "id": "duplicate-009",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 2.81
+    },
+    {
+      "id": "duplicate-010",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.02
+    },
+    {
+      "id": "duplicate-011",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.24
+    },
+    {
+      "id": "duplicate-012",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.52
+    },
+    {
+      "id": "duplicate-013",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 2.98
+    },
+    {
+      "id": "duplicate-014",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.85
+    },
+    {
+      "id": "duplicate-015",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.81
+    },
+    {
+      "id": "duplicate-016",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.16
+    },
+    {
+      "id": "duplicate-017",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.08
+    },
+    {
+      "id": "duplicate-018",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.49
+    },
+    {
+      "id": "duplicate-019",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.23
+    },
+    {
+      "id": "duplicate-020",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.23
+    },
+    {
+      "id": "duplicate-021",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.39
+    },
+    {
+      "id": "duplicate-022",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.55
+    },
+    {
+      "id": "duplicate-023",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.36
+    },
+    {
+      "id": "duplicate-024",
+      "category": "duplicate_detection",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate"
+      ],
+      "duration_ms": 3.04
+    },
+    {
+      "id": "policy-000",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.75
+    },
+    {
+      "id": "policy-001",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.27
+    },
+    {
+      "id": "policy-002",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.6
+    },
+    {
+      "id": "policy-003",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.53
+    },
+    {
+      "id": "policy-004",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.41
+    },
+    {
+      "id": "policy-005",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.92
+    },
+    {
+      "id": "policy-006",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.07
+    },
+    {
+      "id": "policy-007",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.38
+    },
+    {
+      "id": "policy-008",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.25
+    },
+    {
+      "id": "policy-009",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.41
+    },
+    {
+      "id": "policy-010",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.25
+    },
+    {
+      "id": "policy-011",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.4
+    },
+    {
+      "id": "policy-012",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.93
+    },
+    {
+      "id": "policy-013",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.96
+    },
+    {
+      "id": "policy-014",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 3.98
+    },
+    {
+      "id": "policy-015",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 3.04
+    },
+    {
+      "id": "policy-016",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.82
+    },
+    {
+      "id": "policy-017",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.54
+    },
+    {
+      "id": "policy-018",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.32
+    },
+    {
+      "id": "policy-019",
+      "category": "policy",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "completed",
+      "actual_tools": [
+        "retrieve_policy"
+      ],
+      "expected_status": "completed",
+      "expected_tools": [
+        "retrieve_policy"
+      ],
+      "duration_ms": 2.82
+    },
+    {
+      "id": "ambiguous-000",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.99
+    },
+    {
+      "id": "ambiguous-001",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.9
+    },
+    {
+      "id": "ambiguous-002",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 3.26
+    },
+    {
+      "id": "ambiguous-003",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.82
+    },
+    {
+      "id": "ambiguous-004",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.58
+    },
+    {
+      "id": "ambiguous-005",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.57
+    },
+    {
+      "id": "ambiguous-006",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.86
+    },
+    {
+      "id": "ambiguous-007",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 3.15
+    },
+    {
+      "id": "ambiguous-008",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.93
+    },
+    {
+      "id": "ambiguous-009",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.43
+    },
+    {
+      "id": "ambiguous-010",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.77
+    },
+    {
+      "id": "ambiguous-011",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.56
+    },
+    {
+      "id": "ambiguous-012",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.89
+    },
+    {
+      "id": "ambiguous-013",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.49
+    },
+    {
+      "id": "ambiguous-014",
+      "category": "ambiguous_input",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "needs_details",
+      "actual_tools": [],
+      "expected_status": "needs_details",
+      "expected_tools": [],
+      "duration_ms": 2.7
+    },
+    {
+      "id": "failure-000",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 2.99
+    },
+    {
+      "id": "failure-001",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 2.85
+    },
+    {
+      "id": "failure-002",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 2.96
+    },
+    {
+      "id": "failure-003",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 3.45
+    },
+    {
+      "id": "failure-004",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 3.12
+    },
+    {
+      "id": "failure-005",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 3.11
+    },
+    {
+      "id": "failure-006",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 2.87
+    },
+    {
+      "id": "failure-007",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 3.28
+    },
+    {
+      "id": "failure-008",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 3.01
+    },
+    {
+      "id": "failure-009",
+      "category": "policy_error",
+      "passed": true,
+      "status_ok": true,
+      "tools_ok": true,
+      "safety_ok": true,
+      "actual_status": "blocked",
+      "actual_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "expected_status": "blocked",
+      "expected_tools": [
+        "lookup_customer",
+        "retrieve_policy",
+        "check_duplicate",
+        "prepare_invoice_draft"
+      ],
+      "duration_ms": 2.96
+    }
+  ]
+}
